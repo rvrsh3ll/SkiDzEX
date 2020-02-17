@@ -1,0 +1,6 @@
+C:\DecompileTools\RCE\zProtect\THatFilmProtect\ConfuserEx Modify By Theepakorn\Cfex-Abarcy Public\Debug\bin\Confuser.CLI.exe
+C:\DecompileTools\RCE\zProtect\THatFilmProtect\ConfuserEx Modify By Theepakorn\Cfex-Abarcy Public\Debug\bin\Confuser.CLI.pdb
+C:\DecompileTools\RCE\zProtect\THatFilmProtect\ConfuserEx Modify By Theepakorn\Cfex-Abarcy Public\Confuser.CLI\obj\Debug\Confuser.CLI.csprojAssemblyReference.cache
+C:\DecompileTools\RCE\zProtect\THatFilmProtect\ConfuserEx Modify By Theepakorn\Cfex-Abarcy Public\Confuser.CLI\obj\Debug\Confuser.CLI.csproj.CopyComplete
+C:\DecompileTools\RCE\zProtect\THatFilmProtect\ConfuserEx Modify By Theepakorn\Cfex-Abarcy Public\Confuser.CLI\obj\Debug\Confuser.CLI.exe
+C:\DecompileTools\RCE\zProtect\THatFilmProtect\ConfuserEx Modify By Theepakorn\Cfex-Abarcy Public\Confuser.CLI\obj\Debug\Confuser.CLI.pdb
