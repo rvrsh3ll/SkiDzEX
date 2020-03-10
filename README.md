@@ -22,10 +22,11 @@ like me.
     Resources 
     Mutate Constants
     Local to Fields
+    LocalToFieldV2
     Force Admin
     Invalid MetaData
     MD5 Checksum
-    Module Flood
+    TypeScrambler
     Fake Obfuscator
     Process Monitor
     Anti Fiddler
@@ -34,6 +35,7 @@ like me.
 
 ## Bug Report
 Report here [Bug Report](https://github.com/NotPrab/SkiDzEX/issues) !
+Report here [Bug Report] (TheepakornX#7373)
 
 ## License
 See LICENSE file for details.
@@ -49,8 +51,8 @@ See LICENSE file for details.
 
 [ForlaxPy](https://github.com/ForlaxPy/ConfuserEx-Additions-v2) - ConfuserEx-Additions v2
 
-[TrinityNET](https://github.com/TrinityNET/Trinity-ConfuserEx-Mod) - ConfuserEx GUI
+[TrinityNET](https://github.com/TrinityNET/Trinity-ConfuserEx-Mod) - ConfuserEx GUI - ConfuserEx Additions
 
-[TheepakornX]() - My friend who leave this project
+[TheepakornX](https://github.com/TheepakornX) - (Add Protections)
 
 [yck1509](https://github.com/yck1509/ConfuserEx) - Original ConfuserEx
