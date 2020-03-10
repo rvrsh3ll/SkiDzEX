@@ -53,6 +53,6 @@ See LICENSE file for details.
 
 [TrinityNET](https://github.com/TrinityNET/Trinity-ConfuserEx-Mod) - ConfuserEx GUI - ConfuserEx Additions
 
-[TheepakornX]() - (https://github.com/TheepakornX)
+[TheepakornX](https://github.com/TheepakornX) - (Add Protections)
 
 [yck1509](https://github.com/yck1509/ConfuserEx) - Original ConfuserEx
