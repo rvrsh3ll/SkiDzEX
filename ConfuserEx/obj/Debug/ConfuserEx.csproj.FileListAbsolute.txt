@@ -60,3 +60,35 @@ E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\ConfuserEx\obj\D
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\ConfuserEx\obj\Debug\Views\ProjectTabView.baml
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\ConfuserEx\obj\Debug\ConfuserEx.g.resources
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\ConfuserEx\obj\Debug\ConfuserEx.csproj.CopyComplete
+D:\Dev\shittyskidzexproject\SkiDzEX\Debug\bin\ConfuserEx.exe.config
+D:\Dev\shittyskidzexproject\SkiDzEX\Debug\bin\ConfuserEx.exe
+D:\Dev\shittyskidzexproject\SkiDzEX\Debug\bin\ConfuserEx.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\ConfuserEx.csprojAssemblyReference.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\CompComboBox.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\App.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\CompComboBox.g.cs
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\MainWindow.g.cs
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\StackTraceDecoder.g.cs
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\ProjectRuleView.g.cs
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\ProjectModuleView.g.cs
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\ProjectTabAdvancedView.g.cs
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\App.g.cs
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\ConfuserEx_MarkupCompile.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\ConfuserEx_MarkupCompile.lref
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\MainWindow.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Skin.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\StackTraceDecoder.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\AboutTabView.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\ProtectTabView.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\ProjectRuleView.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\SettingsTabView.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\ProjectModuleView.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\ProjectTabAdvancedView.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\Views\ProjectTabView.baml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\ConfuserEx.g.resources
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\ConfuserEx.csproj.CoreCompileInputs.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\ConfuserEx.csproj.CopyComplete
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\ConfuserEx.exe
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\ConfuserEx.pdb

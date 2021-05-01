@@ -10,3 +10,10 @@ E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.DynCiph
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Debug\bin\Confuser.DynCipher.dll
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Debug\bin\Confuser.DynCipher.pdb
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.DynCipher\obj\Debug\Confuser.DynCipher.csproj.CopyComplete
+D:\Dev\shittyskidzexproject\SkiDzEX\Debug\bin\Confuser.DynCipher.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Debug\bin\Confuser.DynCipher.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Debug\Confuser.DynCipher.csprojAssemblyReference.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Debug\Confuser.DynCipher.csproj.CoreCompileInputs.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Debug\Confuser.DynCipher.csproj.CopyComplete
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Debug\Confuser.DynCipher.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Debug\Confuser.DynCipher.pdb

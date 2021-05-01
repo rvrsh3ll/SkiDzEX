@@ -10,3 +10,10 @@ E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.Protect
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Debug\bin\Confuser.Protections.dll
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Debug\bin\Confuser.Protections.pdb
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.Protections\obj\Debug\Confuser.Protections.csproj.CopyComplete
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Protections\obj\Debug\Confuser.Protections.csprojAssemblyReference.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Protections\obj\Debug\Confuser.Protections.csproj.CoreCompileInputs.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Protections\obj\Debug\Confuser.Protections.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Protections\obj\Debug\Confuser.Protections.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\Debug\bin\Confuser.Protections.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Debug\bin\Confuser.Protections.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Protections\obj\Debug\Confuser.Protections.csproj.CopyComplete

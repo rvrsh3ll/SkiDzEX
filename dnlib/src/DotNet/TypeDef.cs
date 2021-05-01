@@ -1976,9 +1976,7 @@ namespace dnlib.DotNet {
 		public override string ToString() {
 			return FullName;
 		}
-
-        public abstract bool InGlobalModuleType();
-    }
+	}
 
 	/// <summary>
 	/// A TypeDef row created by the user and not present in the original .NET file

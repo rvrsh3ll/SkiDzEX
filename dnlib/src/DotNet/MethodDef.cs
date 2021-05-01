@@ -22,12 +22,10 @@ namespace dnlib.DotNet {
 		internal static readonly UTF8String StaticConstructorName = ".cctor";
 		internal static readonly UTF8String InstanceConstructorName = ".ctor";
 
-        public abstract bool InGlobalModuleType();
-
-        /// <summary>
-        /// The row id in its table
-        /// </summary>
-        protected uint rid;
+		/// <summary>
+		/// The row id in its table
+		/// </summary>
+		protected uint rid;
 
 #if THREAD_SAFE
 		readonly Lock theLock = Lock.Create();

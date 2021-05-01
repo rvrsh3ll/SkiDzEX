@@ -8,3 +8,9 @@ E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Release\bin\Conf
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.Runtime\obj\Release\Confuser.Runtime.csprojAssemblyReference.cache
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.Runtime\obj\Release\Confuser.Runtime.dll
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.Runtime\obj\Release\Confuser.Runtime.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Runtime\obj\Release\Confuser.Runtime.csprojAssemblyReference.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Runtime\obj\Release\Confuser.Runtime.csproj.CoreCompileInputs.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Runtime\obj\Release\Confuser.Runtime.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Runtime\obj\Release\Confuser.Runtime.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\Release\bin\Confuser.Runtime.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Release\bin\Confuser.Runtime.pdb

@@ -65,7 +65,6 @@
     <Compile Include="Integrity.cs" />
     <Compile Include="Lzma.cs" />
     <Compile Include="MD5.cs" />
-    <Compile Include="ModuleFlood.cs" />
     <Compile Include="Mutation.cs" />
     <Compile Include="OverwritesHeaders.cs" />
     <Compile Include="ProcessMonitor.cs" />

@@ -4,3 +4,7 @@ C:\DecompileTools\RCE\zProtect\THatFilmProtect\ConfuserEx Modify By Theepakorn\C
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Build\obj\Release\UpdateVersion.csprojAssemblyReference.cache
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Build\obj\Release\UpdateVersion.exe
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Build\UpdateVersion.exe
+D:\Dev\shittyskidzexproject\SkiDzEX\Build\obj\Release\UpdateVersion.csprojAssemblyReference.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Build\obj\Release\UpdateVersion.csproj.CoreCompileInputs.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Build\obj\Release\UpdateVersion.exe
+D:\Dev\shittyskidzexproject\SkiDzEX\Build\UpdateVersion.exe

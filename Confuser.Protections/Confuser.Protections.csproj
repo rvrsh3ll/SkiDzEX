@@ -144,7 +144,6 @@
     <Compile Include="MildReferenceProxy\RPMode.cs" />
     <Compile Include="MildReferenceProxy\StrongMode.cs" />
     <Compile Include="MildReferenceProxy\x86Encoding.cs" />
-    <Compile Include="ModuleFlood.cs" />
     <Compile Include="Name.cs" />
     <Compile Include="ProcessMonitorProtection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
