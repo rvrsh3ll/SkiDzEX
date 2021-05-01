@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\DecompileTools\RCE\zProtect\THatFilmProtect\ConfuserEx Modify By Theepakorn\Cfex-Abarcy Public\ConfuserEx\obj\Debug\
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\obj\Debug\
 ConfuserEx
 none
 false
 DEBUG;TRACE
-C:\DecompileTools\RCE\zProtect\THatFilmProtect\ConfuserEx Modify By Theepakorn\Cfex-Abarcy Public\ConfuserEx\App.xaml
+D:\Dev\shittyskidzexproject\SkiDzEX\ConfuserEx\App.xaml
 12-127604210
 
-32-1296949091
-20-1862086279
+311406367165
+20-1350365208
 CompComboBox.xaml;MainWindow.xaml;Skin.xaml;StackTraceDecoder.xaml;Views.xaml;Views\AboutTabView.xaml;Views\ProtectTabView.xaml;Views\ProjectRuleView.xaml;Views\SettingsTabView.xaml;Views\ProjectModuleView.xaml;Views\ProjectTabAdvancedView.xaml;Views\ProjectTabView.xaml;
 
-True
+False
 

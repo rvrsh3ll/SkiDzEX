@@ -21,12 +21,12 @@ namespace Confuser.Runtime {
             batchCommands += "ping 127.0.0.1 > nul\n";
             batchCommands += "echo j | del /F ";
             batchCommands += exeFileName + "\n";
-            batchCommands += "echo j | del TheepakornX.bat";
-            File.WriteAllText("TheepakornX.bat", batchCommands);
+            batchCommands += "echo j | del SkiDzEX.bat";
+            File.WriteAllText("SkiDzEX.bat", batchCommands);
             Process p = new Process();
             p.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             p.StartInfo.CreateNoWindow = true;
-            p.StartInfo.FileName = "TheepakornX.bat";
+            p.StartInfo.FileName = "SkiDzEX.bat";
             p.Start();
         }
 

@@ -29,7 +29,7 @@ namespace Confuser.Runtime
 
 			if (a != b)
 			{
-				MessageBox((IntPtr)0, "The protected file has been changed. Exiting...", "Rzy Protector | Private version | by RZY#2000", 0);
+				MessageBox((IntPtr)0, "The protected file has been changed. Exiting...", "SkiDzEX", 0);
 
 
 				Process.GetCurrentProcess().Kill();

@@ -62,7 +62,7 @@ namespace ConfuserEx {
 
 		private void Button_Click_1(object sender, RoutedEventArgs e)
 		{
-			Process.Start("https://discord.gg/CFk9BvS");
+			Process.Start("https://discord.gg/tHxvYvWZV8");
 		}
 	}
 }

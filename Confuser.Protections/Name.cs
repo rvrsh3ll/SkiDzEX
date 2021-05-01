@@ -82,17 +82,7 @@ namespace Confuser.Protections
 
         // Token: 0x04000001 RID: 1
         public const string _Id = "Rename";
-        //public static string Random(int len)
-        //{
-        //    string str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRST123456789他是说汉语的Ⓟⓡⓞⓣⓔⓒⓣｱ尺Ծｲ乇ζｲ123456789αβγδεζηθικλμνξοπρστυφχψω卍卍卍卍卍卍卍";
-        //    char[] chArray = new char[(len - 1) + 1];
-        //    int num = len - 1;
-        //    for (int i = 0; i <= num; i++)
-        //    {
-        //        chArray[i] = str[(int)Math.Round((double)Conversion.Int((float)(VBMath.Rnd() * str.Length)))];
-        //    }
-        //    return new string(chArray);
-        //}
+
         // Token: 0x02000003 RID: 3
         private class NamePhase : ProtectionPhase
         {
@@ -107,8 +97,8 @@ namespace Confuser.Protections
                 foreach (ModuleDefMD module in parameters.Targets.OfType<ModuleDef>())
                 {
                     // Invisible Name and Assembly name
-                    module.Name = "SkiDzEX | .NET Protector & Obfuscator";
-                    module.Assembly.Name = "SkiDzEX | .NET Protector & Obfuscator";
+                    module.Name = "‎‎ ‍ ";
+                    module.Assembly.Name = " ‍ ";
                     
                 }
             }

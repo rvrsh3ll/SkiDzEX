@@ -4,6 +4,7 @@ using System.Linq;
 using Confuser.Core;
 using dnlib.DotNet;
 using dnlib.DotNet.Emit;
+using Microsoft.VisualBasic;
 
 namespace Confuser.Protections.ControlFlow {
 	internal class SwitchMangler : ManglerBase {
@@ -145,8 +146,8 @@ namespace Confuser.Protections.ControlFlow {
 				}
 				requiredInstr.Remove(instr);
 				if ((instr.OpCode.OpCodeType != OpCodeType.Prefix && trace.AfterStack[instr.Offset] == 0 &&
-				     requiredInstr.Count == 0) &&
-				    (shouldSpilt || ctx.Intensity > ctx.Random.NextDouble())) {
+					 requiredInstr.Count == 0) &&
+					(shouldSpilt || ctx.Intensity > ctx.Random.NextDouble())) {
 					statements.AddLast(currentStatement.ToArray());
 					currentStatement.Clear();
 				}
@@ -222,7 +223,8 @@ namespace Confuser.Protections.ControlFlow {
 					statements.AddFirst(newStatement.ToArray());
 				}
 
-				if (statements.Count < 3) continue;
+				if (statements.Count < 3)
+					continue;
 
 				int i;
 
@@ -258,7 +260,7 @@ namespace Confuser.Protections.ControlFlow {
 
 						// Not within current instruction block / targeted in first statement
 						if (srcs.Any(src => src.Offset <= statements.First.Value.Last().Offset ||
-						                    src.Offset >= block.Instructions.Last().Offset))
+											src.Offset >= block.Instructions.Last().Offset))
 							return true;
 
 						// Not targeted by the last of statements
@@ -305,7 +307,7 @@ namespace Confuser.Protections.ControlFlow {
 							var target = (Instruction)newStatement.Last().Operand;
 							int brKey;
 							if (!trace.IsBranchTarget(newStatement.Last().Offset) &&
-							    statementKeys.TryGetValue(target, out brKey)) {
+								statementKeys.TryGetValue(target, out brKey)) {
 								var targetKey = predicate != null ? predicate.GetSwitchKey(brKey) : brKey;
 								var unkSrc = hasUnknownSource(newStatement);
 
@@ -316,14 +318,18 @@ namespace Confuser.Protections.ControlFlow {
 								}
 								else {
 									var thisKey = key[i];
-									var r = ctx.Random.NextInt32();
+									var r = ctx.Random.NextInt32(-1000000, -1000);
+									Local newarr = new Local(ctx.Method.Module.ImportAsTypeSig(typeof(UIntPtr)));
+									ctx.Method.Body.Variables.Add(newarr);
+									newStatement.Add(OpCodes.Ldc_I4.ToInstruction((thisKey * r) ^ targetKey));
+									newStatement.Add(OpCodes.Stloc.ToInstruction(newarr));
 									newStatement.Add(Instruction.Create(OpCodes.Ldloc, local));
 									newStatement.Add(Instruction.CreateLdcI4(r));
 									newStatement.Add(Instruction.Create(OpCodes.Mul));
-									newStatement.Add(Instruction.Create(OpCodes.Ldc_I4, (thisKey * r) ^ targetKey));
+									newStatement.Add(OpCodes.Ldloc.ToInstruction(newarr));
 									newStatement.Add(Instruction.Create(OpCodes.Xor));
 								}
-
+								// thanks to habib for giving me this control flow crasher ages ago
 								ctx.AddJump(newStatement, switchHdr[1]);
 								ctx.AddJunk(newStatement);
 								operands[keyId[i]] = newStatement[0];
@@ -336,7 +342,7 @@ namespace Confuser.Protections.ControlFlow {
 							var target = (Instruction)newStatement.Last().Operand;
 							int brKey;
 							if (!trace.IsBranchTarget(newStatement.Last().Offset) &&
-							    statementKeys.TryGetValue(target, out brKey)) {
+								statementKeys.TryGetValue(target, out brKey)) {
 								bool unkSrc = hasUnknownSource(newStatement);
 								int nextKey = key[i + 1];
 								OpCode condBr = newStatement.Last().OpCode;
@@ -388,13 +394,16 @@ namespace Confuser.Protections.ControlFlow {
 							var targetKey = predicate != null ? predicate.GetSwitchKey(key[i + 1]) : key[i + 1];
 							if (!hasUnknownSource(newStatement)) {
 								var thisKey = key[i];
-								var r = ctx.Random.NextInt32();
+								var r = ctx.Random.NextInt32(-1000000, -1000);
+								Local newarr = new Local(ctx.Method.Module.ImportAsTypeSig(typeof(UIntPtr)));
+								ctx.Method.Body.Variables.Add(newarr);
+								newStatement.Add(OpCodes.Ldc_I4.ToInstruction((thisKey * r) ^ targetKey));
+								newStatement.Add(OpCodes.Stloc.ToInstruction(newarr));
 								newStatement.Add(Instruction.Create(OpCodes.Ldloc, local));
 								newStatement.Add(Instruction.CreateLdcI4(r));
 								newStatement.Add(Instruction.Create(OpCodes.Mul));
-								newStatement.Add(Instruction.Create(OpCodes.Ldstr, Convert.ToString((thisKey * r) - targetKey)));
-                                newStatement.Add(Instruction.Create(OpCodes.Call, ctx.Method.Module.Import(typeof(System.Int32).GetMethod("Parse", new Type[] { typeof(string) }))));
-                                newStatement.Add(Instruction.Create(OpCodes.Sub));
+								newStatement.Add(OpCodes.Ldloc.ToInstruction(newarr));
+								newStatement.Add(Instruction.Create(OpCodes.Xor));
 							}
 							else {
 								newStatement.Add(Instruction.Create(OpCodes.Ldc_I4, targetKey));

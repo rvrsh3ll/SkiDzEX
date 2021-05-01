@@ -50,31 +50,14 @@ namespace Confuser.Protections {
 
 			protected override void Execute(ConfuserContext context, ProtectionParameters parameters) {
 				foreach (ModuleDef module in parameters.Targets.OfType<ModuleDef>()) {
-					TypeRef attrRef = module.CorLibTypes.GetTypeRef("", "Abarcy");
+					TypeRef attrRef = module.CorLibTypes.GetTypeRef("", "SkiDzEX");
+
 					var ctorRef = new MemberRefUser(module, ".ctor", MethodSig.CreateInstance(module.CorLibTypes.Void), attrRef);
 
-					TypeRef attrRefx = module.CorLibTypes.GetTypeRef("", "AbarcyᅠProtector");
-					var ctorRefx = new MemberRefUser(module, ".ctor", MethodSig.CreateInstance(module.CorLibTypes.Void), attrRefx);
-
-					TypeRef attrRefxx = module.CorLibTypes.GetTypeRef("", "ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ");
-					var ctorRefxx = new MemberRefUser(module, ".ctor", MethodSig.CreateInstance(module.CorLibTypes.Void), attrRefxx);
-
-					TypeRef attrRefxxx = module.CorLibTypes.GetTypeRef("", "ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ");
-					var ctorRefxxx = new MemberRefUser(module, ".ctor", MethodSig.CreateInstance(module.CorLibTypes.Void), attrRefxxx);
-
-					TypeRef attrRefxxxx = module.CorLibTypes.GetTypeRef("", "AbarcyᅠObfuscator");
-					var ctorRefxxxx = new MemberRefUser(module, ".ctor", MethodSig.CreateInstance(module.CorLibTypes.Void), attrRefxxxx);
-
 					var attr = new CustomAttribute(ctorRef);
-					var attrx = new CustomAttribute(ctorRefx);
-					var attrxx = new CustomAttribute(ctorRefxx);
-					var attrxxx = new CustomAttribute(ctorRefxxx);
-					var attrxxxx = new CustomAttribute(ctorRefxxxx);
+					
 					module.CustomAttributes.Add(attr);
-					module.CustomAttributes.Add(attrx);
-					module.CustomAttributes.Add(attrxx);
-					module.CustomAttributes.Add(attrxxx);
-					module.CustomAttributes.Add(attrxxxx);
+					
 
 				}
 			}

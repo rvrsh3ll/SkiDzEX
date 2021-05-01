@@ -10,3 +10,10 @@ E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.Renamer
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.Renamer\obj\Release\Confuser.Renamer.csproj.CopyComplete
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.Renamer\obj\Release\Confuser.Renamer.dll
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.Renamer\obj\Release\Confuser.Renamer.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\Release\bin\Confuser.Renamer.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Release\bin\Confuser.Renamer.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Renamer\obj\Release\Confuser.Renamer.csprojAssemblyReference.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Renamer\obj\Release\Confuser.Renamer.csproj.CoreCompileInputs.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Renamer\obj\Release\Confuser.Renamer.csproj.CopyComplete
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Renamer\obj\Release\Confuser.Renamer.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.Renamer\obj\Release\Confuser.Renamer.pdb

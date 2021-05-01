@@ -10,3 +10,10 @@ E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.DynCiph
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.DynCipher\obj\Release\Confuser.DynCipher.csproj.CopyComplete
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.DynCipher\obj\Release\Confuser.DynCipher.dll
 E:\Download\Download Here\Cfex-Abarcy_Public\Cfex-Abarcy Public\Confuser.DynCipher\obj\Release\Confuser.DynCipher.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\Release\bin\Confuser.DynCipher.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Release\bin\Confuser.DynCipher.pdb
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Release\Confuser.DynCipher.csprojAssemblyReference.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Release\Confuser.DynCipher.csproj.CoreCompileInputs.cache
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Release\Confuser.DynCipher.csproj.CopyComplete
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Release\Confuser.DynCipher.dll
+D:\Dev\shittyskidzexproject\SkiDzEX\Confuser.DynCipher\obj\Release\Confuser.DynCipher.pdb
