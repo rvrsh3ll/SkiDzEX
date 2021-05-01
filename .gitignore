@@ -47,3 +47,7 @@ Release/bin/Confuser.Renamer.pdb
 *.resources
 *.dll
 *.cache
+*.cache
+*.exe
+*.dll
+*.pdb

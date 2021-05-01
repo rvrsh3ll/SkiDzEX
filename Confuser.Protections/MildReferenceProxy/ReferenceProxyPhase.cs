@@ -25,7 +25,7 @@ namespace Confuser.Protections.MildReferenceProxy {
 		RPContext ParseParameters(MethodDef method, ConfuserContext context, ProtectionParameters parameters, RPStore store) {
 			var ret = new RPContext();
 			ret.Mode = parameters.GetParameter(context, method, "mode", Mode.Mild); //mod
-			ret.Encoding = parameters.GetParameter(context, method, "encoding", EncodingType.Expression);
+			ret.Encoding = parameters.GetParameter(context, method, "encoding", EncodingType.x86);
 			ret.InternalAlso = parameters.GetParameter(context, method, "internal", true);
 			ret.TypeErasure = parameters.GetParameter(context, method, "typeErasure", true);
 			ret.Depth = parameters.GetParameter(context, method, "depth", 5);
