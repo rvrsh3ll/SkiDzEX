@@ -2,40 +2,9 @@
  A modded version of ConfuserEx | SkiDzEx
  
 ## About
-This is made for someone who is looking for ConfuserEx Modded (that is really working), this is the skid version made for skid
-like me.
+This is made for someone who is looking for ConfuserEx Modded (Sk3dding).
 
-## Features
-    AntiVM
-    Anti ILDasm
-    Anti De4dot
-    Anti Debug 
-    Anti Tamper
-    Anti Dump
-    Anti Watermark
-    Anti Memory Edit
-    Renamer 
-    Constants
-    Control Flow
-    Junk
-    Ref Proxy
-    Resources 
-    Mutate Constants
-    Local to Fields
-    LocalToFieldV2
-    Force Admin
-    Invalid MetaData
-    MD5 Checksum
-    TypeScrambler
-    Fake Obfuscator
-    Process Monitor
-    Anti Fiddler
-    Anti DnSpy
-    Anti HttpDebugger
-
-## Bug Report
-Report here [Bug Report](https://github.com/NotPrab/SkiDzEX/issues) !
-Report here [Bug Report] (TheepakornX#7373)
+![Discord Server](https://discord.gg/tHxvYvWZV8) - Discord Server for sk3d.
 
 ## License
 See LICENSE file for details.
