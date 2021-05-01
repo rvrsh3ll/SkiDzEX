@@ -11,6 +11,7 @@ namespace Confuser.Renamer {
 		Sequential = 0x11,
 		Reversible = 0x12,
 
-		Debug = 0x20
+		Debug = 0x20,
+		Sk3d = 0x21
 	}
 }

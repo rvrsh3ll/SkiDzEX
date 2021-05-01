@@ -60,6 +60,9 @@ namespace Confuser.Renamer
         readonly Dictionary<string, string> nameMap2 = new Dictionary<string, string>();
         internal ReversibleRenamer reversibleRenamer;
 
+        // prevent de4dot to restore name
+        public string Sk3dRenaming() => "_" + Guid.NewGuid().ToString().Replace("-", "").ToUpper().Substring(0, 16) + "_";
+
         public NameService(ConfuserContext context)
         {
             this.context = context;
@@ -195,19 +198,18 @@ namespace Confuser.Renamer
             switch (mode)
             {
                 case RenameMode.Empty:
-                    return "SkiDzEX | .NET Protector & Obfuscator" + Strings.Left(CalculateMD5Hash(Utils.EncodeString(hash, letterCharset)), 10);
+                    return "";
                 case RenameMode.Unicode:
-                    return "SkiDzEX | .NET Protector & Obfuscator" + Strings.Left(CalculateMD5Hash(Utils.EncodeString(hash, letterCharset)), 10);
                 case RenameMode.Letters:
-                    return "SkiDzEX | .NET Protector & Obfuscator" + Strings.Left(CalculateMD5Hash(Utils.EncodeString(hash, letterCharset)), 10);
                 case RenameMode.ASCII:
-                    return "SkiDzEX | .NET Protector & Obfuscator" + Strings.Left(CalculateMD5Hash(Utils.EncodeString(hash, letterCharset)), 10);
+                case RenameMode.Sk3d:
+                    return Sk3dRenaming();
                 case RenameMode.Decodable:
                     IncrementNameId();
-                    return "SkiDzEX | .NET Protector & Obfuscator" + Strings.Left(CalculateMD5Hash(Utils.EncodeString(hash, letterCharset)), 10);
+                    return Sk3dRenaming();
                 case RenameMode.Sequential:
                     IncrementNameId();
-                    return "SkiDzEX | .NET Protector & Obfuscator" + Strings.Left(CalculateMD5Hash(Utils.EncodeString(hash, letterCharset)), 10);
+                    return Sk3dRenaming();
                 default:
 
                     throw new NotSupportedException("Rename mode '" + mode + "' is not supported.");
